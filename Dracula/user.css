@@ -77,9 +77,9 @@
 }
 
 /* Remove Topbar background colour */
-.main-topBar-background {
+/*.main-topBar-background {
   background-color: unset !important;
-}
+}*/
 
 .main-topBar-overlay,
 .x-441-actionBarBackground-background {
@@ -90,9 +90,9 @@
   box-shadow: 0 04px 20px #21212130;
 }
 
-.main-trackList-playingIcon {
+/*.main-trackList-playingIcon {
   filter: hue-rotate(270deg);
-}
+}*/
 
 span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   fill: black;
@@ -172,7 +172,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 
 .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
 .main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle {
-  color: var(--spice-subtext) !important;
+  color: var(--text-bright-accent) !important;
 }
 
 .main-trackList-rowTitle {
@@ -223,9 +223,9 @@ input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
 /* search page edits */
 
 input {
-  background-color: unset !important;
+  /*background-color: unset !important;
   border-bottom: solid 2px var(--spice-text) !important;
-  border-radius: 0 !important;
+  border-radius: 0 !important;*/
   color: var(--spice-text) !important;
 }
 
@@ -248,7 +248,7 @@ input {
 .main-userWidget-box {
   background-color: unset !important;
   border-radius: 0px !important;
-  border-bottom: solid 2px var(--spice-text) !important;
+  /*border-bottom: solid 2px var(--spice-text) !important;*/
   color: var(--spice-text) !important;
 }
 
@@ -260,6 +260,10 @@ input {
 
 .main-avatar-image {
   padding-bottom: 8% !important;
+}
+
+.MGZ4oJmGVPrWsx5cT5hN {
+  background-color: var(--spice-main);
 }
 
 /* card edits */
@@ -317,7 +321,7 @@ input {
   color: var(--spice-button) !important;
 }
 
-.cover-art--with-auto-height {
+/*.cover-art--with-auto-height {
   border: solid var(--spice-sec-player) 5px !important;
 }
 
@@ -325,7 +329,7 @@ input {
 .cover-art .cover-art-image {
   border-radius: 10px;
   background-color: var(--spice-sec-player) !important;
-}
+}*/
 
 .main-nowPlayingBar-container {
   background-color: var(--spice-sec-player) !important;
