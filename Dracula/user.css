@@ -180,7 +180,6 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 
-
 /* friend activity */
 .main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName a,
 .main-buddyFeed-activityMetadata .main-buddyFeed-playbackContext a,
@@ -199,7 +198,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 /* setting menu */
 
 .main-dropDown-dropDown {
-  background-color: var(--spice-button-disabled) !important;
+  background-color: var(--spice-sec-input) !important;
   color: var(--spice-text) !important;
 }
 
@@ -207,16 +206,20 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   color: var(--spice-tab-active) !important;
 }
 
-input:checked~.x-toggle-indicatorWrapper .x-toggle-indicator {
+/*input:checked~.x-toggle-indicatorWrapper .x-toggle-indicator {
   background-color: var(--spice-button-knob) !important;
 }
 
 .x-toggle-indicator {
   background: var(--spice-button-knob) !important;
+}*/
+
+input:checked:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
+  background-color: var(--spice-sec-checked) !important;
 }
 
-input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
-  background-color: rgba(var(--spice-rgb-button), .5) !important;
+input:not(:checked):not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
+  background-color: var(--spice-sec-input);
 }
 
 
