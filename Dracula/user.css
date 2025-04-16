@@ -168,6 +168,10 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   background-image: linear-gradient(transparent, transparent), linear-gradient(var(--spice-main), var(--spice-main));
 }
 
+.main-trackList-trackListHeaderStuck.main-trackList-trackListHeader {
+  background-color: var(--spice-card);
+}
+
 
 /* Artist page */
 
