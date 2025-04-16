@@ -191,6 +191,10 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   color: var(--spice-text) !important;
 }
 
+.x-sortBox-sortDropdown {
+  color: var(--spice-subtext);
+}
+
 
 /* friend activity */
 .main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName a,
