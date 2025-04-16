@@ -35,6 +35,18 @@
   background-color: unset !important;
 }
 
+.AIlmv6h8bR5NY5R0VceT,  /* create button */
+.AIlmv6h8bR5NY5R0VceT:hover {
+  background-color: var(--spice-button-background);
+}
+
+/*
+   FIXME: this only gets applied after the user clicks on the sidebar.
+   .ChipInnerComponent-sm {
+     background-color: var(--spice-button-background) !important;
+   }
+*/
+
 /* top queue */
 .queue-tabBar-active {
   background-color: var(--spice-card) !important;
@@ -77,9 +89,9 @@
 }
 
 /* Remove Topbar background colour */
-/*.main-topBar-background {
-  background-color: unset !important;
-}*/
+.main-topBar-background {
+  background-color: var(--spice-main);
+}
 
 .main-topBar-overlay,
 .x-441-actionBarBackground-background {
@@ -172,7 +184,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 
 .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
 .main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle {
-  color: var(--text-bright-accent) !important;
+  color: var(--spice-text-bright-accent) !important;
 }
 
 .main-trackList-rowTitle {
@@ -223,7 +235,11 @@ input:not(:checked):not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
 }
 
 
-/* search page edits */
+/* top bar and search page edits */
+
+.main-globalNav-navLink {
+  background-color: var(--spice-button-background) !important;
+}
 
 input {
   /*background-color: unset !important;
@@ -232,8 +248,21 @@ input {
   color: var(--spice-text) !important;
 }
 
+.main-topBar-searchBar {
+  background: var(--spice-card) !important;
+}
+
 .x-833-searchInput-searchInputSearchIcon {
   color: var(--spice-text) !important;
+}
+
+.IYex0sXu8fnCz1FqFbRe {  /* search bar keyboard shortcut on-hover placeholcer */
+  background: linear-gradient(to right, transparent 0, var(--spice-card) 10%, var(--spice-card) 90%, transparent 100%);
+
+}
+
+.GimJ6fo6WOYPyWNVpSr1 {  /* search suggestions */
+  background-color: var(--spice-card);
 }
 
 .x-833-heroCategoryCard-heroTitle,
@@ -337,11 +366,25 @@ input {
 .main-nowPlayingBar-container {
   background-color: var(--spice-sec-player) !important;
   border-top: unset !important;
-
   height: 80px;
 }
 
-/* REMOVE AD BANNER */
+/* now playing view edits */
+
+.CvxzmyND_aGd2RR8ZoSr,
+.main-nowPlayingView-section {
+  background-color: var(--spice-card);
+}
+
+.eEiwEPDfVRD0HKjYM_dq button {  /* switch to video button */
+  background: var(--spice-button-background);
+}
+
+.encore-internal-color-text-subdued {
+  color: var(--spice-text);
+}
+
+/* remove ads */
 
 .upgrade-button, button[data-menu-item="upgrade-account"], button[id="upgradeAccount"] {
   display: none !important;
@@ -356,6 +399,10 @@ input {
   text-indent: 0;
   display: block;
   line-height: initial;
+}
+
+.utUDWsORU96S7boXm2Aq {
+  display: none;
 }
 
 /* For new UI */
@@ -379,5 +426,3 @@ input {
   cursor: pointer !important;
   margin-left: -3px !important;
 }
-
-
