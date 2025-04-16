@@ -1,4 +1,68 @@
-/* sidebar edits */
+.main-playButton-PlayButton.main-playButton-primary {
+  color: var(--spice-main);
+  background-color: var(--spice-button);
+}
+
+.connect-title,
+.connect-header {
+  display: none;
+}
+
+.main-entityTitle-subtitle.main-entityTitle-gray,
+.main-entityHeader-metaDataText {
+  color: var(--spice-text) !important;
+}
+
+.main-duration-container {
+  color: var(--spice-subtext);
+}
+
+.main-entityTitle-subtitle {
+  color: var(--spice-extratext);
+}
+
+span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
+  fill: black;
+}
+
+.main-addButton-button {
+  color: rgba(var(--spice-rgb-card), .7) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle {
+  color: var(--spice-text-bright-accent) !important;
+}
+
+.main-trackList-rowTitle {
+  color: var(--spice-text) !important;
+}
+
+.x-sortBox-sortDropdown {
+  color: var(--spice-subtext);
+}
+
+.encore-internal-color-text-subdued {
+  color: var(--spice-subtext);
+}
+
+#context-menu > div > ul > li:nth-child(3) > a { /* Replace the 3 with any other number in the menu if you use some extension which adds a new menu to the dropdown list */
+  display: none !important;
+}
+
+.main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn)>* {
+  opacity: 1 !important;
+}
+
+.main-trackList-rowPlayPauseButton {
+  width: 22px !important;
+  cursor: pointer !important;
+  margin-left: -3px !important;
+}
+
+
+/* Sidebar */
+
 .main-navBar-navBarLinkActive,
 .main-navBar-navBarLinkActive:focus,
 .logo {
@@ -26,7 +90,6 @@
   opacity: .7 !important;
 }
 
-
 .main-rootlist-rootlistDividerGradient {
   background: linear-gradient(180deg, var(--spice-main), transparent);
 }
@@ -47,7 +110,9 @@
    }
 */
 
-/* top queue */
+
+/* Queue */
+
 .queue-tabBar-active {
   background-color: var(--spice-card) !important;
 }
@@ -56,7 +121,9 @@
   color: var(--spice-text) !important;
 }
 
-/* header colored backgrounds */
+
+/* Header */
+
 .main-home-homeHeader,
 .x-441-entityHeader-overlay,
 .main-actionBarBackground-background,
@@ -68,18 +135,6 @@
   background-image: unset !important;
 }
 
-/* play button in main page */
-.main-playButton-PlayButton.main-playButton-primary {
-  color: var(--spice-main);
-  background-color: var(--spice-button);
-}
-
-.connect-title,
-.connect-header {
-  display: none;
-}
-
-/* Topbar visibility bug */
 .main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn)>* {
   opacity: unset !important;
 }
@@ -88,7 +143,6 @@
   opacity: 0 !important;
 }
 
-/* Remove Topbar background colour */
 .main-topBar-background {
   background-color: var(--spice-main);
 }
@@ -102,30 +156,10 @@
   box-shadow: 0 04px 20px #21212130;
 }
 
-/*.main-trackList-playingIcon {
-  filter: hue-rotate(270deg);
-}*/
-
-span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
-  fill: black;
+.main-home-filterChipsSection.fIvMht6B9HdROywMNJZ4:after {
+  background-color: var(--spice-main);
 }
 
-
-/* details metadata */
-.main-entityTitle-subtitle.main-entityTitle-gray,
-.main-entityHeader-metaDataText {
-  color: var(--spice-text) !important;
-}
-
-.main-duration-container {
-  color: var(--spice-subtext);
-}
-
-.main-entityTitle-subtitle {
-  color: var(--spice-extratext);
-}
-
-/* artist page edits*/
 .main-entityHeader-background.main-entityHeader-gradient {
   opacity: .4;
 }
@@ -133,6 +167,9 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 .main-entityHeader-background.main-entityHeader-overlay:after {
   background-image: linear-gradient(transparent, transparent), linear-gradient(var(--spice-main), var(--spice-main));
 }
+
+
+/* Artist page */
 
 .artist-artistPick-pickComment {
   background: unset !important;
@@ -145,11 +182,11 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   color: var(--spice-card);
 }
 
-/* home screen edits */
-.view-homeShortcutsGrid-name {
-  color: var(--spice-button);
-}
+/* Homepage */
 
+.view-homeShortcutsGrid-name {
+  color: var(--spice-text);
+}
 
 .main-shelf-title {
   color: var(--spice-subtext)
@@ -177,26 +214,8 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 
-/* inside a page edits */
-.main-addButton-button {
-  color: rgba(var(--spice-rgb-card), .7) !important;
-}
+/* Friend activity */
 
-.main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
-.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle {
-  color: var(--spice-text-bright-accent) !important;
-}
-
-.main-trackList-rowTitle {
-  color: var(--spice-text) !important;
-}
-
-.x-sortBox-sortDropdown {
-  color: var(--spice-subtext);
-}
-
-
-/* friend activity */
 .main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName a,
 .main-buddyFeed-activityMetadata .main-buddyFeed-playbackContext a,
 .main-buddyFeed-activityMetadata .main-buddyFeed-usernameAndTimestamp a {
@@ -211,7 +230,8 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   background: var(--spice-extratext);
 }
 
-/* setting menu */
+
+/* Settings page */
 
 .main-dropDown-dropDown {
   background-color: var(--spice-sec-input) !important;
@@ -222,14 +242,6 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   color: var(--spice-tab-active) !important;
 }
 
-/*input:checked~.x-toggle-indicatorWrapper .x-toggle-indicator {
-  background-color: var(--spice-button-knob) !important;
-}
-
-.x-toggle-indicator {
-  background: var(--spice-button-knob) !important;
-}*/
-
 input:checked:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
   background-color: var(--spice-sec-checked) !important;
 }
@@ -239,16 +251,13 @@ input:not(:checked):not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
 }
 
 
-/* top bar and search page edits */
+/* Top bar and search page */
 
 .main-globalNav-navLink {
   background-color: var(--spice-button-background) !important;
 }
 
 input {
-  /*background-color: unset !important;
-  border-bottom: solid 2px var(--spice-text) !important;
-  border-radius: 0 !important;*/
   color: var(--spice-text) !important;
 }
 
@@ -274,8 +283,6 @@ input {
   color: var(--spice-main) !important;
 }
 
-
-/* menu and dropdown menus including the user menu */
 .main-type-mesto,
 .x-533-dropDown-dropDown {
   color: var(--spice-text) !important;
@@ -284,7 +291,6 @@ input {
 .main-userWidget-box {
   background-color: unset !important;
   border-radius: 0px !important;
-  /*border-bottom: solid 2px var(--spice-text) !important;*/
   color: var(--spice-text) !important;
 }
 
@@ -302,7 +308,8 @@ input {
   background-color: var(--spice-main);
 }
 
-/* card edits */
+
+/* Cards */
 
 .main-card-card a,
 .main-card-card button {
@@ -340,12 +347,15 @@ input {
   color: var(--spice-extratext) !important;
 }
 
-/* profile page edits */
+
+/* Profile page */
+
 .main-cardImage-imageWrapper {
   background-color: var(--spice-sec-card) !important;
 }
 
-/* mini player edits */
+
+/* Player */
 
 .progress-bar--is-active .progress-bar__fg,
 :not(.no-focus-outline) .progress-bar:focus-within .progress-bar__fg {
@@ -357,23 +367,14 @@ input {
   color: var(--spice-button) !important;
 }
 
-/*.cover-art--with-auto-height {
-  border: solid var(--spice-sec-player) 5px !important;
-}
-
-.cover-art,
-.cover-art .cover-art-image {
-  border-radius: 10px;
-  background-color: var(--spice-sec-player) !important;
-}*/
-
 .main-nowPlayingBar-container {
   background-color: var(--spice-sec-player) !important;
   border-top: unset !important;
   height: 80px;
 }
 
-/* now playing view edits */
+
+/* Now playing */
 
 .CvxzmyND_aGd2RR8ZoSr,
 .main-nowPlayingView-section {
@@ -384,11 +385,8 @@ input {
   background: var(--spice-button-background);
 }
 
-.encore-internal-color-text-subdued {
-  color: var(--spice-text);
-}
 
-/* remove ads */
+/* Ads remover */
 
 .upgrade-button, button[data-menu-item="upgrade-account"], button[id="upgradeAccount"] {
   display: none !important;
@@ -409,24 +407,9 @@ input {
   display: none;
 }
 
-/* For new UI */
 .main-leaderboardComponent-container{
   display: none;
 }
 .main-topBar-UpgradeButton {
   display: none;
-}
-
-#context-menu > div > ul > li:nth-child(3) > a { /* Replace the 3 with any other number in the menu if you use some extension which adds a new menu to the dropdown list */
-  display: none !important;
-}
-
-.main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn)>* {
-  opacity: 1 !important;
-}
-
-.main-trackList-rowPlayPauseButton {
-  width: 22px !important;
-  cursor: pointer !important;
-  margin-left: -3px !important;
 }
