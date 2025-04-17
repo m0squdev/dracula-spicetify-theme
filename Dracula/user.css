@@ -60,6 +60,25 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   margin-left: -3px !important;
 }
 
+.search-searchCategory-carouselButton,
+.search-searchCategory-carouselButton:hover {
+  background-color: var(--spice-button-background);
+}
+
+.LegacyChipInner__ChipInnerComponent-sc-1qguixk-0 {
+  --background-base: var(--spice-button-active) !important;
+  --background-highlight: var(--spice-button-active) !important;
+  --background-press: var(--spice-button-active) !important;
+  --background-tinted-base: var(--spice-button-background) !important;
+  --background-tinted-highlight: var(--spice-button-background) !important;
+  --background-tinted-press: var(--spice-button-background) !important;
+}
+
+.x-filterBox-expandedOrHasFilter {
+  background-color: var(--spice-card);
+  border-radius: 5px;
+}
+
 
 /* Sidebar */
 
@@ -98,17 +117,14 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   background-color: unset !important;
 }
 
-.AIlmv6h8bR5NY5R0VceT,  /* create button */
+.AIlmv6h8bR5NY5R0VceT,  /* Create button */
 .AIlmv6h8bR5NY5R0VceT:hover {
   background-color: var(--spice-button-background);
 }
 
-/*
-   FIXME: this only gets applied after the user clicks on the sidebar.
-   .ChipInnerComponent-sm {
-     background-color: var(--spice-button-background) !important;
-   }
-*/
+.ChipClear__ChipClearComponent-sc-zv5btm-0  /* Clear filters button */  {
+  background-color: var(--spice-button-background);
+}
 
 
 /* Queue */
@@ -187,6 +203,10 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 /* Homepage */
+
+.view-homeShortcutsGrid-main {
+  background-color: var(--spice-card);
+}
 
 .view-homeShortcutsGrid-name {
   color: var(--spice-text);
@@ -387,6 +407,13 @@ input {
 
 .eEiwEPDfVRD0HKjYM_dq button {  /* switch to video button */
   background: var(--spice-button-background);
+}
+
+
+/* Lyrics */
+
+.lyrics-lyrics-background {
+  background-color: var(--spice-main);
 }
 
 
