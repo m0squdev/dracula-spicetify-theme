@@ -441,8 +441,16 @@ input {
 }
 
 .lyrics-lyrics-contentContainer .GML6YUVCeJvRhGznLnqm,  /* "Lyrics aren't synced" paragraph */
-.lyrics-lyricsContent-lyric:not(.lyrics-lyricsContent-highlight):not(.lyrics-lyricsContent-active):not(.lyrics-lyricsContent-unsynced) {
+.lyrics-lyricsContent-provider {
   color: var(--spice-subtext);
+}
+
+.lyrics-lyricsContent-lyric {
+  color: var(--spice-text) !important;
+}
+
+.lyrics-lyricsContent-lyric:not(.lyrics-lyricsContent-highlight):not(.lyrics-lyricsContent-active):not(.lyrics-lyricsContent-unsynced) {
+  color: var(--spice-subtext) !important;
 }
 
 
