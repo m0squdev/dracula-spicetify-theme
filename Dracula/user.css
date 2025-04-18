@@ -84,7 +84,8 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   --background-press: var(--spice-button-active) !important;
 }
 
-.main-trackList-playingIcon {
+.main-trackList-playingIcon,
+.view-homeShortcutsGrid-equaliser {
   /* Can't use accent color here because there isn't a similar enough filter */
   filter: brightness(0) saturate(100%) invert(100%) sepia(28%) saturate(321%) hue-rotate(19deg) brightness(103%) contrast(94%);
 }
