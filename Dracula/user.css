@@ -182,10 +182,6 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   box-shadow: 0 04px 20px #21212130;
 }
 
-.main-home-filterChipsSection.fIvMht6B9HdROywMNJZ4:after {
-  background-color: var(--spice-main);
-}
-
 .main-entityHeader-background.main-entityHeader-gradient {
   opacity: .4;
 }
@@ -213,6 +209,12 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 /* Homepage */
+
+.main-home-filterChipsContainer {
+  /*  Hide home screen filter chips since they don't work with Spicetify.
+      See https://github.com/spicetify/cli/issues/3375  */
+  display: none;
+}
 
 .view-homeShortcutsGrid-main {
   background-color: var(--spice-card);
