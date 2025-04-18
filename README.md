@@ -1,6 +1,6 @@
 # Dracula theme for [Spicetify](https://github.com/spicetify/cli)
 
-For of the [official Dracula theme](https://github.com/dracula/spicetify), which is outdated as of when I'm updating this file.
+Fork of the [official Dracula theme](https://github.com/dracula/spicetify), which is outdated as of when I'm updating this file.
 
 ![Screenshot](./screenshot.png)
 
