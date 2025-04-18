@@ -418,6 +418,9 @@ input {
 .gwmgu53xszgwAXxqLT0h {  /* song name in top-left corner */
   text-decoration: none !important;
 }
+.gwmgu53xszgwAXxqLT0h:hover {
+  text-decoration: underline !important;
+}
 
 .main-trackInfo-artists a:link {
   color: var(--spice-text);
