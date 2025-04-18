@@ -46,7 +46,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   color: var(--spice-subtext);
 }
 
-#context-menu > div > ul > li:nth-child(3) > a { /* Replace the 3 with any other number in the menu if you use some extension which adds a new menu to the dropdown list */
+#context-menu > div > ul > li:nth-child(3) > a {
   display: none !important;
 }
 
@@ -132,7 +132,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   background-color: var(--spice-button-background);
 }
 
-.ChipClear__ChipClearComponent-sc-zv5btm-0  /* Clear filters button */  {
+.ChipClear__ChipClearComponent-sc-zv5btm-0 {  /* Clear filters button */
   background-color: var(--spice-button-background);
 }
 
@@ -212,7 +212,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 
 .main-home-filterChipsContainer {
   /*  Hide home screen filter chips since they don't work with Spicetify.
-      See https://github.com/spicetify/cli/issues/3375  */
+      See https://github.com/spicetify/cli/issues/3375 for reference.  */
   display: none;
 }
 
@@ -440,7 +440,7 @@ input {
 }
 
 
-/* Ads remover */
+/* Remove ads */
 
 .upgrade-button, button[data-menu-item="upgrade-account"], button[id="upgradeAccount"] {
   display: none !important;
