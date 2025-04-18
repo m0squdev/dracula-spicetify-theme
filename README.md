@@ -1,21 +1,9 @@
-# Dracula for [Spicetify](https://github.com/khanhas/spicetify-cli)
+# Dracula theme for [Spicetify](https://github.com/spicetify/cli)
 
-> A dark theme for [Spicetify cli](https://github.com/khanhas/spicetify-cli). Inspired by [Onepunch](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Onepunch).
+Inspired by the [official Dracula theme](https://github.com/dracula/spicetify), which is outdated as of when I'm updating this file.
 
 ![Screenshot](./screenshot.png)
 
-## Install
+## Installation
 
-All instructions can be found at [draculatheme.com/spicetify](https://draculatheme.com/spicetify).
-
-## Team
-
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/spicetify/graphs/contributors).
-
-[![Zeno Rocha](https://github.com/Darkempire78.png?size=100)](https://github.com/Darkempire78) |
---- |
-[Darkempire78](https://github.com/Darkempire78) |
-
-## License
-
-[MIT License](./LICENSE)
+See the [Spicetify docs](https://spicetify.app/docs/getting-started).
