@@ -306,12 +306,12 @@ input {
   color: var(--spice-text) !important;
 }
 
-.IYex0sXu8fnCz1FqFbRe {  /* search bar keyboard shortcut on-hover placeholcer */
+.IYex0sXu8fnCz1FqFbRe {  /* Search bar keyboard shortcut on-hover placeholcer */
   background: linear-gradient(to right, transparent 0, var(--spice-card) 10%, var(--spice-card) 90%, transparent 100%);
 
 }
 
-.GimJ6fo6WOYPyWNVpSr1 {  /* search suggestions */
+.GimJ6fo6WOYPyWNVpSr1 {  /* Search suggestions */
   background-color: var(--spice-card);
 }
 
@@ -418,7 +418,7 @@ input {
   background-color: var(--spice-card);
 }
 
-.gwmgu53xszgwAXxqLT0h {  /* song name in top-left corner */
+.gwmgu53xszgwAXxqLT0h {  /* Song name in top-left corner */
   text-decoration: none !important;
 }
 .gwmgu53xszgwAXxqLT0h:hover {
@@ -429,7 +429,7 @@ input {
   color: var(--spice-text);
 }
 
-.eEiwEPDfVRD0HKjYM_dq button {  /* switch to video button */
+.eEiwEPDfVRD0HKjYM_dq button {  /* Switch to video button */
   background: var(--spice-button-background);
 }
 
@@ -438,6 +438,11 @@ input {
 
 .lyrics-lyrics-background {
   background-color: var(--spice-main);
+}
+
+.lyrics-lyrics-contentContainer .GML6YUVCeJvRhGznLnqm,  /* "Lyrics aren't synced" paragraph */
+.lyrics-lyricsContent-lyric:not(.lyrics-lyricsContent-highlight):not(.lyrics-lyricsContent-active):not(.lyrics-lyricsContent-unsynced) {
+  color: var(--spice-subtext);
 }
 
 
