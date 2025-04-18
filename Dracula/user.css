@@ -415,6 +415,14 @@ input {
   background-color: var(--spice-card);
 }
 
+.gwmgu53xszgwAXxqLT0h {  /* song name in top-left corner */
+  text-decoration: none !important;
+}
+
+.main-trackInfo-artists a:link {
+  color: var(--spice-text);
+}
+
 .eEiwEPDfVRD0HKjYM_dq button {  /* switch to video button */
   background: var(--spice-button-background);
 }
